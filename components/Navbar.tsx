@@ -24,8 +24,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           onClick={() => setCurrentPage('gallery')}
           title="Visionary Home"
         >
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+          <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
           <path d="M9.6,0.2C6.3,0.8,3.4,3,1.7,5.9c-4.3,7.2,0.2,15,6.7,17.7c-0.1-1,3.3-0.6,3.6-1.7c0.2-0.9-1.8-5.1-1.8-5.1s-1.5-3.5-1.5-4.5
             c0-1.6,0.9-2.8,2.1-2.8c1,0,1.4,0.7,1.4,1.6c0,1,0.2,1.1-0.1,2.4c-0.3,1.1,0.9,1.7,2,1.7c2,0,2.4-0.5,2.4-3.6c0-2.7-2-4.6-4.8-4.6
             c-3.2,0-5.1,2.4-5.1,4.9c0,1,0.4,2,0.8,2.6c0.1,0.1,0.1,0.2,0.1,0.3l-0.3,1.4c-0.1,0.2-0.2,0.3-0.4,0.1c-1.5-0.7-2.4-2.9-2.4-4.6
